@@ -1,0 +1,14 @@
+[Unit]
+After=vionetaos-message-bus.service
+After=docker.service
+Description=VionetaOS App Management Service
+
+[Service]
+ExecStartPre=/usr/bin/vionetaos-app-management -v
+ExecStart=/usr/bin/vionetaos-app-management -c /etc/vionetaos/app-management.conf
+PIDFile=/var/run/vionetaos/app-management.pid
+Restart=always
+Type=notify
+
+[Install]
+WantedBy=multi-user.target

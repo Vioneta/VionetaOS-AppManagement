@@ -1,0 +1,12 @@
+[common]
+RuntimePath = /var/run/vionetaos
+
+[app]
+LogPath = /var/log/vionetaos/
+LogSaveName = app-management
+LogFileExt = log
+AppStorePath = /var/lib/vionetaos/appstore
+AppsPath = /var/lib/vionetaos/apps
+
+[server]
+appstore = https://vionetaos.app/store/main.zip
