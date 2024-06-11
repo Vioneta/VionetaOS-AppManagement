@@ -99,7 +99,7 @@ func (a *ComposeApp) AuthorType() codegen.StoreAppAuthorType {
 		return codegen.Official
 	}
 	if strings.EqualFold(storeInfo.Author, common.ComposeAppAuthorVionetaOSTeam) {
-		return codegen.ByCasaos
+		return codegen.ByVionetaos
 	}
 
 	return codegen.Community
