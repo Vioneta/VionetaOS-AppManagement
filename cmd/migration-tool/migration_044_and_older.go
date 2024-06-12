@@ -18,7 +18,7 @@ type UrlReplacement struct {
 var replaceUrl = []UrlReplacement{
 	{
 		OldUrl: "https://github.com/Vioneta/_appstore/archive/refs/heads/main.zip",
-		NewUrl: "https://vionetaos.app/store/main.zip",
+		NewUrl: "https://github.com/Vioneta/VionetaOS-Appstore/archive/refs/heads/main.zip",
 	},
 	{
 		OldUrl: "https://vionetaos.oss-cn-shanghai.aliyuncs.com/Vioneta/_appstore/archive/refs/heads/main.zip",

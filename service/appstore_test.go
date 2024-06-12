@@ -91,7 +91,7 @@ func TestSkipUpdateCatalog(t *testing.T) {
 	logger.LogInitConsoleOnly()
 
 	appStoreUrl := []string{
-		"https://vionetaos.app/store/main.zip",
+		"https://github.com/Vioneta/VionetaOS-Appstore/archive/refs/heads/main.zip",
 		"https://vionetaos.oss-cn-shanghai.aliyuncs.com/store/main.zip",
 	}
 

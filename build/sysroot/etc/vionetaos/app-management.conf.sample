@@ -9,4 +9,4 @@ AppStorePath = /var/lib/vionetaos/appstore
 AppsPath = /var/lib/vionetaos/apps
 
 [server]
-appstore = https://vionetaos.app/store/main.zip
+appstore = https://github.com/Vioneta/VionetaOS-Appstore/archive/refs/heads/main.zip
